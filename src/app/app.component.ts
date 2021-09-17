@@ -17,4 +17,10 @@ export class AppComponent {
   onButtonClick(){
     console.log("You clicked a button!")
   }
+
+  //input event : Capture typed input value
+  onChangeLength(event : any){
+    console.log(event.target.value)
+
+  }
 }
