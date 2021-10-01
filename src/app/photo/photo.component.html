@@ -1,0 +1,6 @@
+<div>
+    <button mat-button color="warn" (click) ='getPhoto()'>Let's see a picture!</button>
+</div>
+<div>
+    <img *ngIf='photoUrl' [src] = 'photoUrl'>
+</div>
